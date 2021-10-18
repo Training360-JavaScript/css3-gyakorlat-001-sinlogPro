@@ -5,7 +5,9 @@
 	3. szövegigazítás középre
 */
 body {
-	
+	background-color: #009688;
+	color: #fff;
+	text-align: center;	
   }
   
   a {
@@ -47,6 +49,12 @@ body {
 	transition: -webkit-transform ease-out 200ms;
 	transition: transform ease-out 200ms;
 	transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
+	background-color: #ffc107;
+	color: #fff;
+	border-radius: 100%;
+	position: absolute;
+	text-align: center;
+	line-height: 80px;
   }
   
   .menu-open {
@@ -70,6 +78,11 @@ body {
 	transition: -webkit-transform 200ms;
 	transition: transform 200ms;
 	transition: transform 200ms, -webkit-transform 200ms;
+	width: 25px;
+	height: 3px;
+	background-color: #fff;
+	display: block;
+	position: absolute;
   }
   
   .hamburger-1 {
